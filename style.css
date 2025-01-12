@@ -1,0 +1,18 @@
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.task-text {
+    flex-grow: 1;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+.gradient-custom {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+}
